@@ -3,7 +3,7 @@
 # Nível: 7 kyu
 
 function longest(strA, strB) {
-  return [...s1, ...s2].sort().map((e, i, a) => e == a[i + 1] ? '' : e).join('')
+  return [...strA, ...strB].sort().map((e, i, a) => e === a[i + 1] ? '' : e).join('')
 }
 
 # Teste rápido
